@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_INHERITANCE", "OOP_INHERITANCE\OOP_INHERITANCE.csproj", "{FE1290D0-90E5-414F-A37D-6277FE26D547}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE1290D0-90E5-414F-A37D-6277FE26D547}.Debug|x86.ActiveCfg = Debug|x86
+		{FE1290D0-90E5-414F-A37D-6277FE26D547}.Debug|x86.Build.0 = Debug|x86
+		{FE1290D0-90E5-414F-A37D-6277FE26D547}.Release|x86.ActiveCfg = Release|x86
+		{FE1290D0-90E5-414F-A37D-6277FE26D547}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

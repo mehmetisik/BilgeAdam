@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Ogrenciler>
+
+  <Ogrenci>
+    <Ad>Ajdar</Ad>
+    <Soyad>Alın</Soyad>
+    <No>Nane</No>
+
+
+  </Ogrenci>
+  <Ogrenci>
+    <Ad>Mahmut</Ad>
+    <Soyad>Tuncer</Soyad>
+    <No>Cenderme</No>
+
+
+  </Ogrenci>
+  <Ogrenci>
+    <Ad>Nihat</Ad>
+    <Soyad>Doğan</Soyad>
+    <No>Ben Delikanlıyım</No>
+
+
+  </Ogrenci>
+
+
+
+</Ogrenciler>

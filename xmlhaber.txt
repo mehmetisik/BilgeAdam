@@ -1,0 +1,2 @@
+webclient fdf= new webclien();
+byte[]resim = fdf.dowlanddata("url")

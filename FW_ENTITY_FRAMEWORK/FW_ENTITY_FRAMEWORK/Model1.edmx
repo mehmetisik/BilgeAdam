@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="northwindModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="northwindModelStoreContainer">
+          <EntitySet Name="categories" EntityType="northwindModel.Store.categories" store:Type="Tables" Schema="northwind" />
+          <EntitySet Name="products" EntityType="northwindModel.Store.products" store:Type="Tables" Schema="northwind" />
+          <EntitySet Name="suppliers" EntityType="northwindModel.Store.suppliers" store:Type="Tables" Schema="northwind" />
+          <AssociationSet Name="FK_products" Association="northwindModel.Store.FK_products">
+            <End Role="categories" EntitySet="categories" />
+            <End Role="products" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_products_hede" Association="northwindModel.Store.FK_products_hede">
+            <End Role="suppliers" EntitySet="suppliers" />
+            <End Role="products" EntitySet="products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="categories">
+          <Key>
+            <PropertyRef Name="CategooryId" />
+          </Key>
+          <Property Name="CategooryId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="char" MaxLength="50" />
+          <Property Name="Description" Type="char" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="products">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Name="ProductId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="char" Nullable="false" MaxLength="50" />
+          <Property Name="UnitPrice" Type="decimal" />
+          <Property Name="CategoryId" Type="int" />
+          <Property Name="SupplierId" Type="int" />
+        </EntityType>
+        <EntityType Name="suppliers">
+          <Key>
+            <PropertyRef Name="SupplierId" />
+          </Key>
+          <Property Name="SupplierId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Company" Type="char" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_products">
+          <End Role="categories" Type="northwindModel.Store.categories" Multiplicity="0..1" />
+          <End Role="products" Type="northwindModel.Store.products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="categories">
+              <PropertyRef Name="CategooryId" />
+            </Principal>
+            <Dependent Role="products">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_products_hede">
+          <End Role="suppliers" Type="northwindModel.Store.suppliers" Multiplicity="0..1" />
+          <End Role="products" Type="northwindModel.Store.products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="suppliers">
+              <PropertyRef Name="SupplierId" />
+            </Principal>
+            <Dependent Role="products">
+              <PropertyRef Name="SupplierId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="northwindModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="northwindEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="categories" EntityType="northwindModel.category" />
+          <EntitySet Name="products" EntityType="northwindModel.product" />
+          <EntitySet Name="suppliers" EntityType="northwindModel.supplier" />
+          <AssociationSet Name="FK_products" Association="northwindModel.FK_products">
+            <End Role="category" EntitySet="categories" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+          <AssociationSet Name="FK_products_hede" Association="northwindModel.FK_products_hede">
+            <End Role="supplier" EntitySet="suppliers" />
+            <End Role="product" EntitySet="products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="category">
+          <Key>
+            <PropertyRef Name="CategooryId" />
+          </Key>
+          <Property Name="CategooryId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryName" Type="String" />
+          <Property Name="Description" Type="String" />
+          <NavigationProperty Name="products" Relationship="northwindModel.FK_products" FromRole="category" ToRole="product" />
+        </EntityType>
+        <EntityType Name="product">
+          <Key>
+            <PropertyRef Name="ProductId" />
+          </Key>
+          <Property Type="Int32" Name="ProductId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ProductName" Nullable="false" />
+          <Property Type="Decimal" Name="UnitPrice" />
+          <Property Type="Int32" Name="CategoryId" />
+          <Property Type="Int32" Name="SupplierId" />
+          <NavigationProperty Name="category" Relationship="northwindModel.FK_products" FromRole="product" ToRole="category" />
+          <NavigationProperty Name="supplier" Relationship="northwindModel.FK_products_hede" FromRole="product" ToRole="supplier" />
+        </EntityType>
+        <EntityType Name="supplier">
+          <Key>
+            <PropertyRef Name="SupplierId" />
+          </Key>
+          <Property Type="Int32" Name="SupplierId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Company" />
+          <NavigationProperty Name="products" Relationship="northwindModel.FK_products_hede" FromRole="supplier" ToRole="product" />
+        </EntityType>
+        <Association Name="FK_products">
+          <End Type="northwindModel.category" Role="category" Multiplicity="0..1" />
+          <End Type="northwindModel.product" Role="product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="category">
+              <PropertyRef Name="CategooryId" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_products_hede">
+          <End Type="northwindModel.supplier" Role="supplier" Multiplicity="0..1" />
+          <End Type="northwindModel.product" Role="product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="supplier">
+              <PropertyRef Name="SupplierId" />
+            </Principal>
+            <Dependent Role="product">
+              <PropertyRef Name="SupplierId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="northwindModelStoreContainer" CdmEntityContainer="northwindEntities">
+          <EntitySetMapping Name="categories"><EntityTypeMapping TypeName="northwindModel.category"><MappingFragment StoreEntitySet="categories">
+            <ScalarProperty Name="CategooryId" ColumnName="CategooryId" />
+            <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+            <ScalarProperty Name="Description" ColumnName="Description" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="products">
+            <EntityTypeMapping TypeName="northwindModel.product">
+              <MappingFragment StoreEntitySet="products">
+                <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+                <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="suppliers">
+            <EntityTypeMapping TypeName="northwindModel.supplier">
+              <MappingFragment StoreEntitySet="suppliers">
+                <ScalarProperty Name="Company" ColumnName="Company" />
+                <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model1">
+        <EntityTypeShape EntityType="northwindModel.category" Width="1.5" PointX="0.75" PointY="0.75" Height="1.59568359375" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.product" Width="1.5" PointX="3.625" PointY="0.5" Height="2.3648893229166656" />
+        <EntityTypeShape EntityType="northwindModel.supplier" Width="1.5" PointX="1.375" PointY="3.875" Height="1.5956835937499996" />
+        <AssociationConnector Association="northwindModel.FK_products" >
+          <ConnectorPoint PointX="2.25" PointY="1.6439925130208335" />
+          <ConnectorPoint PointX="3.625" PointY="1.6439925130208335" />
+        </AssociationConnector>
+        <AssociationConnector Association="northwindModel.FK_products_hede" >
+          <ConnectorPoint PointX="2.59375" PointY="3.875" />
+          <ConnectorPoint PointX="2.59375" PointY="2.7326871744791665" />
+          <ConnectorPoint PointX="3.625" PointY="2.7326871744791665" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

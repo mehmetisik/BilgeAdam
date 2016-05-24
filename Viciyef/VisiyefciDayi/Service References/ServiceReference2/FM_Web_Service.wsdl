@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetStandings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MatchType" type="tns:MatchType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="MatchType">
+        <s:restriction base="s:string">
+          <s:enumeration value="AbantKupası" />
+          <s:enumeration value="AbdullahKaptanKaymaklıCup" />
+          <s:enumeration value="AfrikaUluslarKupası" />
+          <s:enumeration value="AkdenizKupası" />
+          <s:enumeration value="AkdenizKupası1" />
+          <s:enumeration value="AkdenizKupası2" />
+          <s:enumeration value="AlmanyaBundesliga" />
+          <s:enumeration value="AnadoluCup" />
+          <s:enumeration value="AnatolianCup" />
+          <s:enumeration value="AntalyaCup" />
+          <s:enumeration value="AntalyaKupası" />
+          <s:enumeration value="ArjantinLigi" />
+          <s:enumeration value="AspendosKupası" />
+          <s:enumeration value="AvanosCupFutbolTurnuvası" />
+          <s:enumeration value="AvrupaSüperKupası" />
+          <s:enumeration value="AvrupaŞampiyonası" />
+          <s:enumeration value="AvrupaŞampiyonasıElemeleri" />
+          <s:enumeration value="BankAsya1Lig" />
+          <s:enumeration value="BankAsya1LigeYükselmeMaçları" />
+          <s:enumeration value="BarışKupası" />
+          <s:enumeration value="BasriDirimliliCup" />
+          <s:enumeration value="BelçikaLigi" />
+          <s:enumeration value="BilyonerKupası" />
+          <s:enumeration value="BoluFutbolTurnuvası" />
+          <s:enumeration value="CopaAmerica" />
+          <s:enumeration value="CornersporCup" />
+          <s:enumeration value="ÇanakkaleZaferCup" />
+          <s:enumeration value="DavrazCupFutbolTurnuvası" />
+          <s:enumeration value="DoğanEmültayKupası" />
+          <s:enumeration value="DostlukKupası" />
+          <s:enumeration value="DünyaKupası" />
+          <s:enumeration value="DünyaKupasıElemeleri" />
+          <s:enumeration value="EfesKupası" />
+          <s:enumeration value="EgeCup" />
+          <s:enumeration value="EğirdirCupFutbolTurnuvası" />
+          <s:enumeration value="FethiyeKupası" />
+          <s:enumeration value="FIFAKonfederasyonKupası" />
+          <s:enumeration value="FortisTürkiyeKupası" />
+          <s:enumeration value="FransaLigue1" />
+          <s:enumeration value="GeredeCupFutbolTurnuvası" />
+          <s:enumeration value="GökmenYıldıranFutbolTurnuvası" />
+          <s:enumeration value="GündüzTekinOnayKupası" />
+          <s:enumeration value="HaliçCup" />
+          <s:enumeration value="HasanDoğanKapadokyaFutbolTunuvası" />
+          <s:enumeration value="HasanDoğanKızılcıhamamFutbolTurnuvası" />
+          <s:enumeration value="HazırlıkMaçı" />
+          <s:enumeration value="İngilterePremierLigi" />
+          <s:enumeration value="İspanyaLaLiga" />
+          <s:enumeration value="İsveçLigi" />
+          <s:enumeration value="İsviçreLigi" />
+          <s:enumeration value="İtalyaSerieA" />
+          <s:enumeration value="İzmirKupası" />
+          <s:enumeration value="İzmitCup" />
+          <s:enumeration value="İzzetBaysalCup" />
+          <s:enumeration value="KadriyeKupası" />
+          <s:enumeration value="KapadokyaKupası" />
+          <s:enumeration value="KardeşlikKupası" />
+          <s:enumeration value="KartepeCup" />
+          <s:enumeration value="KayaBelekKupası" />
+          <s:enumeration value="KayaSideKupası" />
+          <s:enumeration value="KızılcahamamKupası" />
+          <s:enumeration value="LaraCup" />
+          <s:enumeration value="MackolikComKupası" />
+          <s:enumeration value="ManavgatCup" />
+          <s:enumeration value="MetinOktayCup" />
+          <s:enumeration value="MuratpaşaCup" />
+          <s:enumeration value="NevşehirBelediyeBaşkanlığıCup" />
+          <s:enumeration value="NevşehirKupası" />
+          <s:enumeration value="ÖzelMaç" />
+          <s:enumeration value="PatalyaKupası" />
+          <s:enumeration value="SapancaCup" />
+          <s:enumeration value="SerikCup" />
+          <s:enumeration value="SevgiKupası" />
+          <s:enumeration value="SporxComKupası" />
+          <s:enumeration value="ŞampiyonlarLigi" />
+          <s:enumeration value="TFF2Lig1Grup" />
+          <s:enumeration value="TFF2Lig2Grup" />
+          <s:enumeration value="TFF2Lig3Grup" />
+          <s:enumeration value="TFF2Lig4Grup" />
+          <s:enumeration value="TFF2Lig5Grup" />
+          <s:enumeration value="TFF2LigYükselmeGrubu" />
+          <s:enumeration value="TFF2LigeYükselmeMaçları" />
+          <s:enumeration value="TFF3LigYükselmeGrubu" />
+          <s:enumeration value="TorosCup" />
+          <s:enumeration value="TurgutlusporBodrumFutbolTurnuvası" />
+          <s:enumeration value="TurgutlusporGöremeKupasıFutbolTurnuvası" />
+          <s:enumeration value="TurkcellSüperLig" />
+          <s:enumeration value="TurkcellSüperLigeYükselmeMaçları" />
+          <s:enumeration value="Türkiye2LigYükselmeGrubu" />
+          <s:enumeration value="Türkiye2ligiYükselmeGrubu" />
+          <s:enumeration value="Türkiye3Ligi1Grup" />
+          <s:enumeration value="Türkiye3Ligi2Grup" />
+          <s:enumeration value="Türkiye3Ligi3Grup" />
+          <s:enumeration value="Türkiye3Ligi4Grup" />
+          <s:enumeration value="Türkiye3Ligi5Grup" />
+          <s:enumeration value="Türkiye3Ligi6Grup" />
+          <s:enumeration value="Türkiye3Ligi7Grup" />
+          <s:enumeration value="Türkiye3Ligi8Grup" />
+          <s:enumeration value="TürkiyeBaşbakanlıkKupası" />
+          <s:enumeration value="TürkiyeCumhurbaşkanlıkKupası" />
+          <s:enumeration value="TürkiyeSporYazarlarıDerneğiKupası" />
+          <s:enumeration value="TürkiyeSüperKupası" />
+          <s:enumeration value="TürkiyeSüperLigi1959SezonuŞampiyonlukMaçları" />
+          <s:enumeration value="TürkiyeSüperLigi19621963SezonuFinalGrubu" />
+          <s:enumeration value="TürkiyeSüperLigiBeyazGrup" />
+          <s:enumeration value="TürkiyeSüperLigiKırmızıGrup" />
+          <s:enumeration value="UçhisarKupası" />
+          <s:enumeration value="UEFAKupası" />
+          <s:enumeration value="ÜrgüpKupası" />
+          <s:enumeration value="YozgatFutbolTurnuvası" />
+          <s:enumeration value="ZinnurSarıCup" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetStandingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStandingsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMatchesList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MatchType" type="tns:MatchType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMatchesListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMatchesListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTopScorers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MatchType" type="tns:MatchType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTopScorersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTopScorersResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetStandingsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStandings" />
+  </wsdl:message>
+  <wsdl:message name="GetStandingsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStandingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchesListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMatchesList" />
+  </wsdl:message>
+  <wsdl:message name="GetMatchesListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMatchesListResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTopScorersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTopScorers" />
+  </wsdl:message>
+  <wsdl:message name="GetTopScorersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTopScorersResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FM_Web_ServiceSoap">
+    <wsdl:operation name="GetStandings">
+      <wsdl:input message="tns:GetStandingsSoapIn" />
+      <wsdl:output message="tns:GetStandingsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchesList">
+      <wsdl:input message="tns:GetMatchesListSoapIn" />
+      <wsdl:output message="tns:GetMatchesListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTopScorers">
+      <wsdl:input message="tns:GetTopScorersSoapIn" />
+      <wsdl:output message="tns:GetTopScorersSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FM_Web_ServiceSoap" type="tns:FM_Web_ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetStandings">
+      <soap:operation soapAction="http://tempuri.org/GetStandings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchesList">
+      <soap:operation soapAction="http://tempuri.org/GetMatchesList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTopScorers">
+      <soap:operation soapAction="http://tempuri.org/GetTopScorers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FM_Web_ServiceSoap12" type="tns:FM_Web_ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetStandings">
+      <soap12:operation soapAction="http://tempuri.org/GetStandings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMatchesList">
+      <soap12:operation soapAction="http://tempuri.org/GetMatchesList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTopScorers">
+      <soap12:operation soapAction="http://tempuri.org/GetTopScorers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FM_Web_Service">
+    <wsdl:port name="FM_Web_ServiceSoap" binding="tns:FM_Web_ServiceSoap">
+      <soap:address location="http://fmws.futbolmerkezi.com/FM_Web_Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FM_Web_ServiceSoap12" binding="tns:FM_Web_ServiceSoap12">
+      <soap12:address location="http://fmws.futbolmerkezi.com/FM_Web_Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

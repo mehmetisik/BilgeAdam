@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FW_CUSTOM_EXCEPTION", "FW_CUSTOM_EXCEPTION\FW_CUSTOM_EXCEPTION.csproj", "{71B586C6-36D5-40AB-B943-F816C201C830}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71B586C6-36D5-40AB-B943-F816C201C830}.Debug|x86.ActiveCfg = Debug|x86
+		{71B586C6-36D5-40AB-B943-F816C201C830}.Debug|x86.Build.0 = Debug|x86
+		{71B586C6-36D5-40AB-B943-F816C201C830}.Release|x86.ActiveCfg = Release|x86
+		{71B586C6-36D5-40AB-B943-F816C201C830}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+	xmlns:media="http://search.yahoo.com/mrss/"
+	xmlns:fn="http://www.w3.org/2004/10/xpath-functions"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:y="http://www.yahoo.com/y-namespace">
+  <channel>
+    <title>HABERTURK.COM</title>
+    <link>http://www.haberturk.com</link>
+    <description>HABERTÜRK - Türkiye'nin En Büyük İnternet Gazetesi</description>
+    <language>tr</language>
+    <copyright>Copyright &amp;copy; 2010, HABERTURK.</copyright>
+    <category>News</category>
+    <lastBuildDate>Wed, 11 Jan 2012 10:57:36 GMT</lastBuildDate>
+    <ttl>1</ttl>
+    <image>
+      <title>Habertürk</title>
+      <link>http://www.haberturk.com</link>
+      <url>http://www.haberturk.com/images/htklogo2.jpg</url>
+      <width>116</width>
+      <height>66</height>
+    </image>
+    <item>
+      <title>Türkücü hırsız kaçamadı</title>
+      <description>&lt;a href='http://www.haberturk.com/yasam/haber/704979-turkucu-hirsiz-kacamadi'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704979_htufak.jpg?1326278987' alt='Çaldığı telefonların parasıyla albüm çıkartacaktı - AHT' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Çaldığı telefonların parasıyla albüm çıkartacaktı - AHT</description>
+      <pubDate>Wed, 11 Jan 2012 10:48:55 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704979_htufak.jpg?1326278987</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704979_htufak.jpg?1326278987" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704979_htufak.jpg?1326278987" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704979_htufak.jpg?1326278987" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/yasam/haber/704979-turkucu-hirsiz-kacamadi</link>
+      <guid>http://www.haberturk.com/yasam/haber/704979-turkucu-hirsiz-kacamadi</guid>
+    </item>
+    <item>
+      <title>Dolar geriliyor!</title>
+      <description>&lt;a href='http://ekonomi.haberturk.com/finans-borsa/haber/704976-dolar-geriliyor'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704976_kutu.jpg?1326278738' alt='İstanbul serbest piyasada alınıp satılan ABD Doları'nın Türk Lirası satış fiyatı 1,8590 liraya geriledi' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;İstanbul serbest piyasada alınıp satılan ABD Doları'nın Türk Lirası satış fiyatı 1,8590 liraya geriledi</description>
+      <pubDate>Wed, 11 Jan 2012 10:45:06 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704976_kutu.jpg?1326278738</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704976_kutu.jpg?1326278738" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704976_kutu.jpg?1326278738" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704976_kutu.jpg?1326278738" length="50000" type="image/jpeg" />
+      <link>http://ekonomi.haberturk.com/finans-borsa/haber/704976-dolar-geriliyor</link>
+      <guid>http://ekonomi.haberturk.com/finans-borsa/haber/704976-dolar-geriliyor</guid>
+    </item>
+    <item>
+      <title>89 yaşında tutuklu yargılanacak </title>
+      <description>
+        &lt;a href='http://www.haberturk.com/dunya/haber/704983-89-yasinda-tutuklu-yargilanacak'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704983_htufak.jpg?1326279219' alt='Bangladeş'in en büyük İslami partisinin eski lideri Ghulam Azam'ın, sağlık sorunları ve ileri yaşı nedeniyle tutuksuz yargılanma isteği reddedildi.
+        ' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Bangladeş'in en büyük İslami partisinin eski lideri Ghulam Azam'ın, sağlık sorunları ve ileri yaşı nedeniyle tutuksuz yargılanma isteği reddedildi.
+      </description>
+      <pubDate>Wed, 11 Jan 2012 10:53:19 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704983_htufak.jpg?1326279219</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704983_htufak.jpg?1326279219" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704983_htufak.jpg?1326279219" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704983_htufak.jpg?1326279219" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/dunya/haber/704983-89-yasinda-tutuklu-yargilanacak</link>
+      <guid>http://www.haberturk.com/dunya/haber/704983-89-yasinda-tutuklu-yargilanacak</guid>
+    </item>
+    <item>
+      <title>Bittiğinde 50 ilden büyük olacak</title>
+      <description>&lt;a href='http://www.haberturk.com/yasam/haber/704971-bittiginde-50-ilden-buyuk-olacak'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704971_htufak.jpg?1326278026' alt='Van'daki depremlerin ardından depremzedelerin geçici barınması için yürütülen konteyner çalışmaları bittiğinde 50 ilden büyük olacak' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Van'daki depremlerin ardından depremzedelerin geçici barınması için yürütülen konteyner çalışmaları bittiğinde 50 ilden büyük olacak</description>
+      <pubDate>Wed, 11 Jan 2012 10:26:59 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704971_htufak.jpg?1326278026</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704971_htufak.jpg?1326278026" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704971_htufak.jpg?1326278026" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704971_htufak.jpg?1326278026" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/yasam/haber/704971-bittiginde-50-ilden-buyuk-olacak</link>
+      <guid>http://www.haberturk.com/yasam/haber/704971-bittiginde-50-ilden-buyuk-olacak</guid>
+    </item>
+    <item>
+      <title>iPad'i uzaydan attılar ve...</title>
+      <description>&lt;a href='http://ekonomi.haberturk.com/teknoloji/haber/704967-ipadi-uzaydan-attilar-ve'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704967_kutu.jpg?1326277973' alt='Uzaydan düşen iPad hâlâ çalışıyor. Peki bu nasıl oldu?' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Uzaydan düşen iPad hâlâ çalışıyor. Peki bu nasıl oldu?</description>
+      <pubDate>Wed, 11 Jan 2012 10:24:29 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704967_kutu.jpg?1326277973</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704967_kutu.jpg?1326277973" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704967_kutu.jpg?1326277973" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704967_kutu.jpg?1326277973" length="50000" type="image/jpeg" />
+      <link>http://ekonomi.haberturk.com/teknoloji/haber/704967-ipadi-uzaydan-attilar-ve</link>
+      <guid>http://ekonomi.haberturk.com/teknoloji/haber/704967-ipadi-uzaydan-attilar-ve</guid>
+    </item>
+    <item>
+      <title>Baydemir, 16 Bakanlığın yetkilerini istedi!</title>
+      <description>&lt;a href='http://www.haberturk.com/gundem/haber/704978-baydemir-16-bakanligin-yetkilerini-istedi'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704978_htufak.jpg?1326278871' alt='TBMM başkanlığına yeni anayasa taslağı metni sunan Diyarbakır Büyükşehir Belediye Başkanı Osman Baydemir, anadilde yönetim ve iki bayrak talep etti' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;TBMM başkanlığına yeni anayasa taslağı metni sunan Diyarbakır Büyükşehir Belediye Başkanı Osman Baydemir, anadilde yönetim ve iki bayrak talep etti</description>
+      <pubDate>Wed, 11 Jan 2012 10:46:36 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704978_htufak.jpg?1326278871</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704978_htufak.jpg?1326278871" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704978_htufak.jpg?1326278871" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704978_htufak.jpg?1326278871" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/gundem/haber/704978-baydemir-16-bakanligin-yetkilerini-istedi</link>
+      <guid>http://www.haberturk.com/gundem/haber/704978-baydemir-16-bakanligin-yetkilerini-istedi</guid>
+    </item>
+    <item>
+      <title>Sabri, Recep İvedik'e karşı!</title>
+      <description>&lt;a href='http://www.htspor.com/futbol/haber/704958-sabri-recep-ivedike-karsi'&gt;&lt;img src='http://im.htspor.com/2012/01/11/704958_kutu.jpg?1326277232' alt='Galatasaraylı Sabri ile komedyen Şahan Gökbakar arasında ilginç diyaloglar yaşandı' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Galatasaraylı Sabri ile komedyen Şahan Gökbakar arasında ilginç diyaloglar yaşandı</description>
+      <pubDate>Wed, 11 Jan 2012 10:08:52 GMT</pubDate>
+      <image>http://im.htspor.com/2012/01/11/704958_kutu.jpg?1326277232</image>
+      <media:content url="http://im.htspor.com/2012/01/11/704958_kutu.jpg?1326277232" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.htspor.com/2012/01/11/704958_kutu.jpg?1326277232" />
+      <enclosure url="http://im.htspor.com/2012/01/11/704958_kutu.jpg?1326277232" length="50000" type="image/jpeg" />
+      <link>http://www.htspor.com/futbol/haber/704958-sabri-recep-ivedike-karsi</link>
+      <guid>http://www.htspor.com/futbol/haber/704958-sabri-recep-ivedike-karsi</guid>
+    </item>
+    <item>
+      <title>Uludağ'da 'sıkıyönetim' ilan edildi!</title>
+      <description>&lt;a href='http://www.haberturk.com/yasam/haber/704954-uludagda-sikiyonetim-ilan-edildi'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704954_htufak.jpg?1326277936' alt='Bursa Valiliği genelge yayınladı...' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Bursa Valiliği genelge yayınladı...</description>
+      <pubDate>Wed, 11 Jan 2012 10:01:16 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704954_htufak.jpg?1326277936</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704954_htufak.jpg?1326277936" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704954_htufak.jpg?1326277936" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704954_htufak.jpg?1326277936" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/yasam/haber/704954-uludagda-sikiyonetim-ilan-edildi</link>
+      <guid>http://www.haberturk.com/yasam/haber/704954-uludagda-sikiyonetim-ilan-edildi</guid>
+    </item>
+    <item>
+      <title>Bu modellerin sırtı yere gelmez! GALERİ</title>
+      <description>&lt;a href='http://ekonomi.haberturk.com/otomotiv/haber/704941-bu-modellerin-sirti-yere-gelmez-galeri'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704941_kutu.jpg?1326277204' alt='Lüks otomobil satışları ne kriz dinledi ne de ÖTV' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Lüks otomobil satışları ne kriz dinledi ne de ÖTV</description>
+      <pubDate>Wed, 11 Jan 2012 09:40:14 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704941_kutu.jpg?1326277204</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704941_kutu.jpg?1326277204" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704941_kutu.jpg?1326277204" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704941_kutu.jpg?1326277204" length="50000" type="image/jpeg" />
+      <link>http://ekonomi.haberturk.com/otomotiv/haber/704941-bu-modellerin-sirti-yere-gelmez-galeri</link>
+      <guid>http://ekonomi.haberturk.com/otomotiv/haber/704941-bu-modellerin-sirti-yere-gelmez-galeri</guid>
+    </item>
+    <item>
+      <title>Komşudan karamsar tablo!</title>
+      <description>
+        &lt;a href='http://ekonomi.haberturk.com/makro-ekonomi/haber/704969-komsudan-karamsar-tablo'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704969_kutu.jpg?1326278390' alt='Yunanistan Başbakanı Lukas Papadimos, 2012 yılının, 2011 gibi zor bir yıl olacağını söyledi
+        ' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Yunanistan Başbakanı Lukas Papadimos, 2012 yılının, 2011 gibi zor bir yıl olacağını söyledi
+      </description>
+      <pubDate>Wed, 11 Jan 2012 10:26:18 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704969_kutu.jpg?1326278390</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704969_kutu.jpg?1326278390" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704969_kutu.jpg?1326278390" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704969_kutu.jpg?1326278390" length="50000" type="image/jpeg" />
+      <link>http://ekonomi.haberturk.com/makro-ekonomi/haber/704969-komsudan-karamsar-tablo</link>
+      <guid>http://ekonomi.haberturk.com/makro-ekonomi/haber/704969-komsudan-karamsar-tablo</guid>
+    </item>
+    <item>
+      <title>Ankara metrosunda akıl almaz görüntü! GALERİ</title>
+      <description>&lt;a href='http://www.haberturk.com/yasam/haber/704933-ankara-metrosunda-akil-almaz-goruntu-galeri'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704933_htufak.jpg?1326276011' alt='Başkentte, bir otomobil Ankaray İstasyonu'nun camından içeri daldı' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Başkentte, bir otomobil Ankaray İstasyonu'nun camından içeri daldı</description>
+      <pubDate>Wed, 11 Jan 2012 09:33:47 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704933_htufak.jpg?1326276011</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704933_htufak.jpg?1326276011" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704933_htufak.jpg?1326276011" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704933_htufak.jpg?1326276011" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/yasam/haber/704933-ankara-metrosunda-akil-almaz-goruntu-galeri</link>
+      <guid>http://www.haberturk.com/yasam/haber/704933-ankara-metrosunda-akil-almaz-goruntu-galeri</guid>
+    </item>
+    <item>
+      <title>Juve açıkladı: &quot;Fenerbahçe...&quot;</title>
+      <description>&lt;a href='http://www.htspor.com/futbol/haber/704844-juve-acikladi-fenerbahce'&gt;&lt;img src='http://im.htspor.com/2012/01/11/704844_kutu.jpg?1326277686' alt='Juventus Genel Direktörü Pepe Marotta, “Fenerbahçe de Melo’yu transfer etmek için ciddi anlamda ilgileniyor. Ancak Galatasaray 13 milyon Euro’yu getirirlerse oyuncumuzu alabilir. Kararlı olurlarsa fiyatta indirim yapabiliriz” dedi' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Juventus Genel Direktörü Pepe Marotta, “Fenerbahçe de Melo’yu transfer etmek için ciddi anlamda ilgileniyor. Ancak Galatasaray 13 milyon Euro’yu getirirlerse oyuncumuzu alabilir. Kararlı olurlarsa fiyatta indirim yapabiliriz” dedi</description>
+      <pubDate>Wed, 11 Jan 2012 07:06:15 GMT</pubDate>
+      <image>http://im.htspor.com/2012/01/11/704844_kutu.jpg?1326277686</image>
+      <media:content url="http://im.htspor.com/2012/01/11/704844_kutu.jpg?1326277686" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.htspor.com/2012/01/11/704844_kutu.jpg?1326277686" />
+      <enclosure url="http://im.htspor.com/2012/01/11/704844_kutu.jpg?1326277686" length="50000" type="image/jpeg" />
+      <link>http://www.htspor.com/futbol/haber/704844-juve-acikladi-fenerbahce</link>
+      <guid>http://www.htspor.com/futbol/haber/704844-juve-acikladi-fenerbahce</guid>
+    </item>
+    <item>
+      <title>Kuzey'le Süleyman evleniyor</title>
+      <description>&lt;a href='http://www.haberturk.com/medya/haber/704900-kuzeyle-suleyman-evleniyor'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704900_htufak.jpg?1326273842' alt='Çarşamba akşamlarının iki süper dizisi Muhteşem Yüzyıl ve Kuzey Güney’e bu akşam ‘düğün’ler damga vuracak!' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Çarşamba akşamlarının iki süper dizisi Muhteşem Yüzyıl ve Kuzey Güney’e bu akşam ‘düğün’ler damga vuracak!</description>
+      <pubDate>Wed, 11 Jan 2012 08:44:08 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704900_htufak.jpg?1326273842</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704900_htufak.jpg?1326273842" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704900_htufak.jpg?1326273842" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704900_htufak.jpg?1326273842" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/medya/haber/704900-kuzeyle-suleyman-evleniyor</link>
+      <guid>http://www.haberturk.com/medya/haber/704900-kuzeyle-suleyman-evleniyor</guid>
+    </item>
+    <item>
+      <title>TRT kendisiyle dalga geçti</title>
+      <description>&lt;a href='http://www.haberturk.com/medya/haber/704837-trt-kendisiyle-dalga-gecti'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704837_htufak.jpg?1326272910' alt='TRT’nin sevilen dizisi Leyla ile Mecnun'dan ilginç bir eleştiri ekrana geldi...' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;TRT’nin sevilen dizisi Leyla ile Mecnun'dan ilginç bir eleştiri ekrana geldi...</description>
+      <pubDate>Wed, 11 Jan 2012 06:25:03 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704837_htufak.jpg?1326272910</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704837_htufak.jpg?1326272910" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704837_htufak.jpg?1326272910" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704837_htufak.jpg?1326272910" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/medya/haber/704837-trt-kendisiyle-dalga-gecti</link>
+      <guid>http://www.haberturk.com/medya/haber/704837-trt-kendisiyle-dalga-gecti</guid>
+    </item>
+    <item>
+      <title>Paris Büyükelçisi Fransız sosyalistlere seslendi </title>
+      <description>
+        &lt;a href='http://www.haberturk.com/dunya/haber/704974-paris-buyukelcisi-fransiz-sosyalistlere-seslendi'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704974_htufak.jpg?1326278491' alt='Paris Büyükelçisi Tahsin Burcuoğlu, Sosyalist senatörleri uyardı: Teklifin yasalaşması, Türk-Fransız ilişkilerine büyük darbe vuracak
+        ' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Paris Büyükelçisi Tahsin Burcuoğlu, Sosyalist senatörleri uyardı: Teklifin yasalaşması, Türk-Fransız ilişkilerine büyük darbe vuracak
+      </description>
+      <pubDate>Wed, 11 Jan 2012 10:39:29 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704974_htufak.jpg?1326278491</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704974_htufak.jpg?1326278491" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704974_htufak.jpg?1326278491" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704974_htufak.jpg?1326278491" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/dunya/haber/704974-paris-buyukelcisi-fransiz-sosyalistlere-seslendi</link>
+      <guid>http://www.haberturk.com/dunya/haber/704974-paris-buyukelcisi-fransiz-sosyalistlere-seslendi</guid>
+    </item>
+    <item>
+      <title>Tam Gün’de istisnalar artıyor!</title>
+      <description>&lt;a href='http://www.haberturk.com/polemik/haber/704972-tam-gunde-istisnalar-artiyor'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704972_htufak.jpg?1326277829' alt=''Muayenehaneni kapatmazsan, üniversite hastanesinde ameliyat yapamazsın' diyen Sağlık Bakanlığı, Tam Gün Yasası'nı esnetti. ' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;'Muayenehaneni kapatmazsan, üniversite hastanesinde ameliyat yapamazsın' diyen Sağlık Bakanlığı, Tam Gün Yasası'nı esnetti. </description>
+      <pubDate>Wed, 11 Jan 2012 10:27:52 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704972_htufak.jpg?1326277829</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704972_htufak.jpg?1326277829" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704972_htufak.jpg?1326277829" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704972_htufak.jpg?1326277829" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/polemik/haber/704972-tam-gunde-istisnalar-artiyor</link>
+      <guid>http://www.haberturk.com/polemik/haber/704972-tam-gunde-istisnalar-artiyor</guid>
+    </item>
+    <item>
+      <title>Rumların Rusya kabusu </title>
+      <description>&lt;a href='http://www.haberturk.com/dunya/haber/704956-rumlarin-rusya-kabusu'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704956_htufak.jpg?1326277653' alt='Suriye'ye silah götüren Rus gemisine Rum kesiminde el konuldu. Rum basını olayı &quot;kabus&quot; manşetleriyle verdi.  ' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Suriye'ye silah götüren Rus gemisine Rum kesiminde el konuldu. Rum basını olayı &quot;kabus&quot; manşetleriyle verdi.  </description>
+      <pubDate>Wed, 11 Jan 2012 10:05:58 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704956_htufak.jpg?1326277653</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704956_htufak.jpg?1326277653" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704956_htufak.jpg?1326277653" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704956_htufak.jpg?1326277653" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/dunya/haber/704956-rumlarin-rusya-kabusu</link>
+      <guid>http://www.haberturk.com/dunya/haber/704956-rumlarin-rusya-kabusu</guid>
+    </item>
+    <item>
+      <title>&quot;Büyüyünce de giyer&quot; diye 1,5 milyon dolar harcadılar</title>
+      <description>&lt;a href='http://ekonomi.haberturk.com/luks-yasam/haber/704955-buyuyunce-de-giyer-diye-1-5-milyon-dolar-harcadilar'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704955_kutu.jpg?1326278828' alt='Beyonce ve eşi Jay-Z yeni doğan kızları için hiçbir masraftan kaçınmazken bazen abartılı harcamalar da yapıyorlar' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Beyonce ve eşi Jay-Z yeni doğan kızları için hiçbir masraftan kaçınmazken bazen abartılı harcamalar da yapıyorlar</description>
+      <pubDate>Wed, 11 Jan 2012 10:05:47 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704955_kutu.jpg?1326278828</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704955_kutu.jpg?1326278828" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704955_kutu.jpg?1326278828" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704955_kutu.jpg?1326278828" length="50000" type="image/jpeg" />
+      <link>http://ekonomi.haberturk.com/luks-yasam/haber/704955-buyuyunce-de-giyer-diye-1-5-milyon-dolar-harcadilar</link>
+      <guid>http://ekonomi.haberturk.com/luks-yasam/haber/704955-buyuyunce-de-giyer-diye-1-5-milyon-dolar-harcadilar</guid>
+    </item>
+    <item>
+      <title>Altın maskenin altındaki ünlü kim?</title>
+      <description>&lt;a href='http://magazin.haberturk.com/dunyadan/haber/704966-altin-maskenin-altindaki-unlu-kim'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704966_kutu.jpg?1326277963' alt='Bu maske sayesinde çok rahat bir gün geçirdi, kimse onu tanımadı' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;Bu maske sayesinde çok rahat bir gün geçirdi, kimse onu tanımadı</description>
+      <pubDate>Wed, 11 Jan 2012 10:24:08 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704966_kutu.jpg?1326277963</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704966_kutu.jpg?1326277963" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704966_kutu.jpg?1326277963" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704966_kutu.jpg?1326277963" length="50000" type="image/jpeg" />
+      <link>http://magazin.haberturk.com/dunyadan/haber/704966-altin-maskenin-altindaki-unlu-kim</link>
+      <guid>http://magazin.haberturk.com/dunyadan/haber/704966-altin-maskenin-altindaki-unlu-kim</guid>
+    </item>
+    <item>
+      <title>Erkekler 'e'n bağımlı</title>
+      <description>&lt;a href='http://www.haberturk.com/saglik/haber/704964-erkekler-en-bagimli'&gt;&lt;img src='http://im.haberturk.com/2012/01/11/704964_htufak.jpg?1326277494' alt='İnternet bağımlılığı üzerine yapılan araştırmalar ilginç bir durumu ortaya koydu' align='left' style='padding-right:5px;' border='0' width='97' height='100' /&gt;&lt;/a&gt;İnternet bağımlılığı üzerine yapılan araştırmalar ilginç bir durumu ortaya koydu</description>
+      <pubDate>Wed, 11 Jan 2012 10:18:16 GMT</pubDate>
+      <image>http://im.haberturk.com/2012/01/11/704964_htufak.jpg?1326277494</image>
+      <media:content url="http://im.haberturk.com/2012/01/11/704964_htufak.jpg?1326277494" type="image/jpeg" medium="image" />
+      <media:thumbnail url="http://im.haberturk.com/2012/01/11/704964_htufak.jpg?1326277494" />
+      <enclosure url="http://im.haberturk.com/2012/01/11/704964_htufak.jpg?1326277494" length="50000" type="image/jpeg" />
+      <link>http://www.haberturk.com/saglik/haber/704964-erkekler-en-bagimli</link>
+      <guid>http://www.haberturk.com/saglik/haber/704964-erkekler-en-bagimli</guid>
+    </item>
+  </channel>
+</rss>
